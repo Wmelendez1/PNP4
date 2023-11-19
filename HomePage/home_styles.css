@@ -1,49 +1,102 @@
- body, header, .nav_bar{
-    margin: 0;
-    padding: 0;
-}
-.nav_bar {
-    background-color: grey;
-}
-
-
-.nav_bar nav{
+/* Welcome Section */
+.welcome {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+  
+#boxoutHome {
+    flex: 1;
+    background-color: #D6D6D6;
+    padding: 20px;
+    margin-right: 4%;
+    height: 200px;
+    width: 80%;
 }
 
-.nav_bar h1{
-    font-size:larger;
-    
-    
+#boxoutHome p{
+    margin-top: 5%;
+    text-align: center;
+    font-size: larger;
+    color: #2c2b30;
 }
-.nav_bar h1 a, ul li a{
-    text-decoration: none;
-    color: black;
-    
+  
+/* Feedback Form */
+form {
+    max-width: 250px;
+    padding: 1em;
+    border-radius: 1em;
+    background-color: #f9f9f9;
+    margin-top: 2%;
+    margin-right: 3%;
 }
-
-.nav_bar h1 a:hover,ul li a:hover{
+  
+  textarea {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 0.5em;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: lightslategray;
     color: white;
-    
-}
-
-ul{
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 0.5em;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  .team-info {
     display: flex;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  
+  /* Team Info Section */
+  .team-info img {
+    height: 300px;
+    margin-left: 5%;
+    margin-top: 1%;
+  }
+  
+  .team-info figcaption {
+    margin-top: 1%;
+    text-align: center;
+    font-size: small;
+    color: #D6D6D6;
+  }
+  
+  /* Additional styles */
+  main h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #D6D6D6;
+  }
+  
 
-ul li {
-    color: black;
-    font-size: 13px;
-    font-weight: bold;
+  .location-section{
+    margin-top: 5%;
+    margin-left: 13%;
+  }
+  .location-section h2, p{
+    text-align: center;
+    color: #D6D6D6;
+  }
+  .location-section h2{
+    font-size: medium;
+    margin-bottom: 0%;
+  }
+  .location-section p{
+    font-size: smaller;
+    margin-top: 0%;
     font-style: italic;
-    margin: 0 10px; /* Adjust as needed */
-}
-
-
-
-
+  }
+  
