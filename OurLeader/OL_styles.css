@@ -1,0 +1,15 @@
+#leaderContainer {
+    background-color: #D6D6D6;
+}
+#leaderContainer img{
+    margin-top: 1%;
+    margin-left: 40%;
+    height: 300px;
+    border-radius: 50%;
+}
+#leaderContainer p, #leaderContainer h2 {
+    text-align: center;
+}
+h1{
+    color: #D6D6D6;
+}
