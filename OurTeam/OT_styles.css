@@ -1,0 +1,84 @@
+/* General styles for the team container */
+#team-container1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+#team-container1 .team-member p{
+    color: #D6D6D6;
+}
+
+#team-container1 .team-member img {
+    width: 150px; /* Set width */
+    height: 150px; /* Set height to the same as width for a circle */
+    border-radius: 50%; /* This makes the image circular */
+    object-fit: cover; /* This ensures the image covers the area without squishing */
+}
+
+
+.team-member {
+    cursor: pointer;
+    text-align: center;
+    width: 150px; /* Width of the team member block */
+    margin-bottom: 10px; /* Space below the team member block */
+    display: flex;
+    flex-direction: column; /* Stack children elements (img and p) vertically */
+    align-items: center; /* Align children (img and p) in the center horizontally */
+}
+
+/* Modal styles */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+    background-color:#D6D6D6;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+}
+
+
+.modal-content img {
+    width: 300px; /* Set this to the desired width */
+    height: 300px; /* Set this to the desired height */
+    border-radius: 50%; /* Keeps the image circular */
+    object-fit: cover; /* Ensures the image covers the area without squishing */
+    display: block; /* Centers the image in the modal */
+    margin: 0 auto; /* Additional centering for the image */
+}
+
+
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+main h1{
+    color: #D6D6D6;
+}
+
+#profileDescription{
+    text-align: center;
+}
