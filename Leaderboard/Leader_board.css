@@ -1,65 +1,65 @@
 .leaderboard {
     display: flex;
     justify-content: center;
-    gap: 2rem; /* Adjust the gap as needed */
+    gap: 2rem; 
     margin-top: 10%;
 }
   
 .leaderboard-item {
-    background-color: #f0f0f0; /* Change as per your color scheme */
+    background-color: #f0f0f0; 
     border-radius: 10px;
     padding: 1rem;
     text-align: center;
-    flex-basis: 20%; /* Adjust the width as needed */
-    position: relative; /* For positioning the avatar */
+    flex-basis: 20%; 
+    position: relative; 
 }
   
 .avatar {
-    background-color: #ccc; /* Placeholder color */
-    width: 100px; /* Adjust as needed */
-    height: 100px; /* Adjust as needed */
-    border-radius: 50%; /* Make the avatar round */
-    margin: 0 auto; /* Center the avatar */
-    position: relative; /* Relative to the leaderboard-item */
-    top: -50px; /* Half of the height to pull it out of the div */
-    border: 5px solid #fff; /* Match the background of the body or the leaderboard */
+    background-color: #ccc; 
+    width: 100px; 
+    height: 100px; 
+    border-radius: 50%; 
+    margin: 0 auto; 
+    position: relative; 
+    top: -50px; 
+    border: 5px solid #fff;
 }
 #A1{
-    background-image: url('/res/Nar.jpg'); /* Update with your image path */
-    background-size: contain; /* Make sure the entire image fits within the avatar circle */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Center the image within the avatar circle */
+    background-image: url('/res/Nar.jpg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 #A2{
-    background-image: url('/res/Tracy.jpg'); /* Update with your image path */
-    background-size: contain; /* Make sure the entire image fits within the avatar circle */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Center the image within the avatar circle */
+    background-image: url('/res/Tracy.jpg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
 #A3{
-    background-image: url('/res/Marvena.jpg'); /* Update with your image path */
-    background-size: contain; /* Make sure the entire image fits within the avatar circle */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center; /* Center the image within the avatar circle */
+    background-image: url('/res/Marvena.jpg'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
 }
   
-/* Adjust the size for the first place */
+
 .leaderboard-item.first .avatar {
-    width: 120px; /* Larger size */
+    width: 120px; 
     height: 120px;
-    top: -60px; /* Pull it up a bit more than the others */
+    top: -60px; 
 }
   
 .leaderboard-item h2, .leaderboard-item h3 {
-    margin-top: 50px; /* Push down to make space for the avatar */
-    color: #333; /* Title color */
+    margin-top: 50px; 
+    color: #333; 
 }
   
 .leaderboard-item.first h2 {
-    margin-top: 60px; /* More space for the larger avatar */
+    margin-top: 60px; 
 }
   
 .leaderboard-item p {
-    color: #666; /* Paragraph text color */
+    color: #666; 
 }
   

@@ -1,7 +1,6 @@
 // Function to display the profile modal
 function showProfile(memberName) {
-    // Here you would typically get the member info by memberName, possibly from an array of member objects
-    // For simplicity, let's say we have a static object for example:
+    
     var memberInfo = {
         'Kiara': {
             imgSrc: '/res/Kiara.jpg',
@@ -39,7 +38,7 @@ function showProfile(memberName) {
             about:"Tonnie is a professional soccer player known for his agility and teamwork. Off the field, he coaches aspiring athletes and shares fitness tips through his blog. He unwinds by playing competitive video games with friends."
         }
 
-        // ...other members
+        // add other once i recieve pics
     };
 
     // Set the content of the modal
@@ -54,12 +53,12 @@ function showProfile(memberName) {
     // Get the element that closes the modal
     var span = document.getElementsByClassName("close")[0];
 
-    // When the user clicks on (x), close the modal
+    
     span.onclick = function() {
         modal.style.display = "none";
     }
 
-    // Also close if anywhere outside of the modal content is clicked
+    
     window.onclick = function(event) {
         if (event.target == modal) {
             modal.style.display = "none";
