@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home</title>
+  <link rel="stylesheet" href="/home_styles.css">
+  <link rel="stylesheet" href="/navbar.css">
+</head>
+<body>
+  <header class="nav_bar">
+    <h1><a id="nameLink" href="/Index.html">Team Smitheryns</a></h1>
+    <ul class="menu">
+      <li id="Home"><a href="/Index.html">Home</a></li>
+      <li id="MOT"><a href="/OurTeam/our_team.html">Meet Our Team</a></li>
+      <li id="MOL"><a href="/OurLeader/our_leader.html">Meet Our Leader</a></li>
+      <li id="Leaderboard"><a href="/Leaderboard/Leader_board.html">Leaderboard</a></li>
+      <li id="JTT"><a href="/JoinTeam/join_team.html">Join the Team</a></li>
+    </ul>     
+</header>
+    
+  <main>
+    <h1>Welcome!</h1>
+    <section class="welcome">
+
+     <div id="boxoutHome">
+         <p>Welcome to Team smitheryns we are an addmissions team for Full Sail
+            University! We are a team a little over a year old and have grown alot
+            in the past year. Check us out and get to know us on our "meet our leader" and 
+            "meet the team" pages. You can also see who is leading our team in metrics on 
+            the "Leaderboard" page. And lastly if you're new to the team head over to
+            join our team so we can get you added! Thanks for vistiting we hope you 
+            enjoied your stay on the Team Smitheryns website!
+         </p>
+     </div>
+    
+     <form action="/submit-feedback" method="post">
+        <label for="feedback">Feedback:</label>
+        <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="We'd Love to hear some feedback!">
+        </textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+
+    <section class="team-info">
+      
+      <figure>
+        <img id="TeamPicHome" src="/TeamPic.jpg" alt="Team Picture Via Zoom">
+        <figcaption>Team Smitheryns Team Meeting 10/18/2023</figcaption>
+      </figure>
+
+      <div class="location-section">
+        <!-- google maps api-->
+        <iframe 
+            src="https://www.google.com/maps/embed/v1/place?key=AIzaSyABN7qrv80jty9zmEhRVW0MbIq74PdIfw8&q=Full+Sail+University, Winter+Park, FL" 
+            width="600" 
+            height="450" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+        <div class="address">
+          <h2>Our Location</h2>
+          <p>3300 University Blvd,<br>Winter Park, FL 32792</p>
+        </div>
+    </div>
+    </section>
+
+    
+      
+  </main>
+
+  <footer>
+   
+  </footer>
+</body>
+</html>
