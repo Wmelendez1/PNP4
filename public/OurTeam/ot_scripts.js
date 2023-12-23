@@ -3,7 +3,7 @@ function showProfile(memberName) {
     
     var memberInfo = {
         'Kiara': {
-            imgSrc: '/Kiara.jpg',
+            imgSrc: '/public/Kiara.jpg',
             name: 'About Kiara: ',
             about: "She loves to capture the beauty of nature through her lens and is an avid follower of indie music bands. Her weekends are often spent exploring the city and sketching its vibrant landscapes."
         },
