@@ -1,15 +1,28 @@
 #leaderContainer {
     background-color: #D6D6D6;
+    display: flex; /* Enable flexbox */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center children horizontally */
+    justify-content: center; /* Center children vertically */
+    height: 100%; /* Adjust height as necessary */
+    text-align: center; /* Center text for all children */
+    height: 500px;
 }
-#leaderContainer img{
+
+#leaderContainer img {
     margin-top: 1%;
-    margin-left: 40%;
     height: 300px;
     border-radius: 50%;
 }
-#leaderContainer p, #leaderContainer h2 {
-    text-align: center;
+
+#leaderContainer h2 {
+    margin-bottom: 1%;
 }
-h1{
+
+#leaderContainer p {
+    margin-top: 1%; 
+}
+
+h1 {
     color: #D6D6D6;
 }

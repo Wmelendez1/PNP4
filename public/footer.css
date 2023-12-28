@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #2c2b30;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+footer {
+    border-top: 2px solid white;
+    font-size:x-small ;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ 
+  .mostUsedLinks li {
+    list-style: none;
+  }
+
+  .mostUsedLinks a{
+    color: orange;
+    text-decoration: none;
+  }
+  .mostUsedLinks {
+    padding-left: 3%;
+  }
+
+  .toFullSail a {
+    color:orange;
+    text-decoration: none;
+  }
+  .toFullSail {
+    padding-right:3%;
+  }

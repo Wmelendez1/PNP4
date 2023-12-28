@@ -119,34 +119,4 @@ form {
     font-style: italic;
   }
 
-  footer {
-    border-top: 2px solid white;
-    font-size:x-small ;
-    color: whitesmoke;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
- 
-  .mostUsedLinks li {
-    list-style: none;
-  }
-
-  .mostUsedLinks a{
-    color: orange;
-    text-decoration: none;
-  }
-  .mostUsedLinks {
-    padding-left: 5%;
-  }
-
-  .toFullSail a {
-    color:orange;
-    text-decoration: none;
-  }
-  .toFullSail {
-    padding-right:5%;
-  }
-
-
  
