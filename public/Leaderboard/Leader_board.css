@@ -25,19 +25,19 @@
     border: 5px solid #fff;
 }
 #A1{
-    background-image: url('/Nar.jpg'); 
+    background-image: url('/public/Tracy.jpg'); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
 }
 #A2{
-    background-image: url('/Tracy.jpg'); 
+    background-image: url('/public/Nar.jpg'); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
 }
 #A3{
-    background-image: url('/Marvena.jpg'); 
+    background-image: url('/public/Marvena.jpg'); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
@@ -51,12 +51,15 @@
 }
   
 .leaderboard-item h2, .leaderboard-item h3 {
-    margin-top: 50px; 
+    margin-top: 15px; 
     color: #333; 
 }
   
 .leaderboard-item.first h2 {
-    margin-top: 60px; 
+    margin-top: 15px; 
+}
+.leaderboard-item .name {
+    font-weight: bolder;
 }
   
 .leaderboard-item p {
