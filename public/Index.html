@@ -40,7 +40,16 @@
           </p>
         </div>
 
-        <form action="submit-feedback" method="post">
+        <form id="feedback-form" action="submit-feedback" method="post">
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            required
+          />
+
           <label for="feedback">Feedback:</label>
           <textarea
             id="feedback"
@@ -48,8 +57,9 @@
             rows="4"
             cols="50"
             placeholder="We'd Love to hear some feedback!"
-          >
-          </textarea>
+            required
+          ></textarea>
+
           <input type="submit" value="Submit" />
         </form>
       </section>
@@ -98,5 +108,6 @@
       </div>
     </footer>
     <script src="/public/reSizer_script.js"></script>
+    <script src="/public/save_feedback.js"></script>
   </body>
 </html>
