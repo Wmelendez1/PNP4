@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var feedback = document.getElementById('feedback').value;
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', '/submit-feedback', true);
+        xhr.open('POST', 'http://localhost:3000/submit-feedback', true);
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
 
         xhr.onreadystatechange = function () {

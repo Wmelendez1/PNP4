@@ -25,19 +25,19 @@
     border: 5px solid #fff;
 }
 #A1{
-    background-image: url('/public/Tracy.jpg'); 
+    background-image: url('../Tracy.jpg'); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
 }
 #A2{
-    background-image: url('/public/Nar.jpg'); 
+    background-image: url('../Nar.jpg'); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
 }
 #A3{
-    background-image: url('/public/Marvena.jpg'); 
+    background-image: url('../Marvena.jpg'); 
     background-size: contain; 
     background-repeat: no-repeat; 
     background-position: center; 
