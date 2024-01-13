@@ -1,28 +1,24 @@
 #leaderContainer {
     background-color: #D6D6D6;
-    display: flex; /* Enable flexbox */
-    flex-direction: column; /* Stack children vertically */
-    align-items: center; /* Center children horizontally */
-    justify-content: center; /* Center children vertically */
-    height: 100%; /* Adjust height as necessary */
-    text-align: center; /* Center text for all children */
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center; 
+    height: 100%; 
+    text-align: center; 
     height: 500px;
 }
-
 #leaderContainer img {
     margin-top: 1%;
     height: 300px;
     border-radius: 50%;
 }
-
 #leaderContainer h2 {
     margin-bottom: 1%;
 }
-
 #leaderContainer p {
     margin-top: 1%; 
 }
-
 h1 {
     color: #D6D6D6;
 }
