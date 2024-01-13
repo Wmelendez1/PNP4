@@ -25,6 +25,7 @@
     "mongoose": "^8.0.4"
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   },
   "devDependencies": {
     "@aws-amplify/backend": "^0.10.1",
@@ -39,6 +40,8 @@
 =======
     "express": "^4.18.2"
 >>>>>>> parent of 0a46d61 (Fully implemented feedback sending and recieving.as well as added mongo db database to save feedback.)
+=======
+>>>>>>> parent of b478b27 (added aws amplify to host and made sure links were good before hosting)
 =======
 >>>>>>> parent of b478b27 (added aws amplify to host and made sure links were good before hosting)
 =======
