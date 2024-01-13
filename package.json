@@ -20,6 +20,7 @@
     "aws-amplify": "^6.0.12",
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+<<<<<<< HEAD
     "express": "^4.18.2",
     "mongoose": "^8.0.4"
   },
@@ -30,5 +31,8 @@
     "aws-cdk-lib": "^2.121.1",
     "constructs": "^10.3.0",
     "typescript": "^5.3.3"
+=======
+    "express": "^4.18.2"
+>>>>>>> parent of 0a46d61 (Fully implemented feedback sending and recieving.as well as added mongo db database to save feedback.)
   }
 }

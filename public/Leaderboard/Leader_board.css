@@ -65,38 +65,5 @@
 .leaderboard-item p {
     color: #666; 
 }
-#feedback-container {
-    max-width: 600px;
-    max-height: 600px;
-    margin: 20px auto;
-    padding: 10px;
-    overflow-y: auto;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-.review-card {
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    padding: 15px;
-    background-color: #fff;
-}
-.feedback-top {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 10px;
-}
-.feedbacker-name {
-    font-size: 1.1em;
-    font-weight: bold;
-}
-.datetime {
-    font-size: 0.9em;
-    color: #666;
-}
-.feedback-feedback p {
-    line-height: 1.6;
-    color: #333;
-}
+
+  

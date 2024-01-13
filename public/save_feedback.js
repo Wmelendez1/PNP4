@@ -13,8 +13,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
         xhr.onreadystatechange = function () {
             if (this.readyState === XMLHttpRequest.DONE && this.status === 200) {
-                //successful submission 
-                feedbackForm.reset();
+                // Handle successful submission here
                 alert('Feedback submitted successfully!');
             }
         };
