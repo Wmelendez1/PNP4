@@ -9,7 +9,12 @@ mongoose.connect('mongodb://teamsmitherynsmongodb:8f8jreQr1bOv05EvIFJvlEwYt31Yqk
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
-app.use(cors());
+
+const corsOptions = {
+    origin: 'https://tubular-raindrop-e8855e.netlify.app'
+};
+
+app.use(cors(corsOptions));
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(bodyParser.urlencoded({extended: true}));
