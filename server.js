@@ -1,11 +1,14 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const cors =  require('cors');
+const cors = require('cors');
 const app = express();
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost:27017/TeamSmitherynsDB', {useNewUrlParser: true, useUnifiedTopology: true});
+mongoose.connect('mongodb://teamsmitherynsmongodb:8f8jreQr1bOv05EvIFJvlEwYt31Yqk7NoisGmv2KpNEpYeMVcZegswqfBOQhgHTgzPZcPaZA667pACDbwWLh2g==@teamsmitherynsmongodb.mongo.cosmos.azure.com:10255/?ssl=true&retrywrites=false&replicaSet=globaldb&maxIdleTimeMS=120000&appName=@teamsmitherynsmongodb@', {
+    useNewUrlParser: true,
+    useUnifiedTopology: true
+});
 app.use(cors());
 app.use(express.static(path.join(__dirname, 'public')));
 
