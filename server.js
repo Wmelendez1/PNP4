@@ -11,7 +11,8 @@ mongoose.connect('mongodb://teamsmitherynsmongodb:8f8jreQr1bOv05EvIFJvlEwYt31Yqk
 });
 
 const corsOptions = {
-    origin: 'https://tubular-raindrop-e8855e.netlify.app'
+    origin: 'https://tubular-raindrop-e8855e.netlify.app/',
+    optionsSuccessStatus: 200
 };
 
 app.use(cors(corsOptions));
