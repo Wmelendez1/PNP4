@@ -36,6 +36,16 @@ function showProfile(memberName) {
             imgSrc: '../Tonnie.jpg',
             name: 'About Tonnie: ',
             about:"Tonnie is a professional soccer player known for his agility and teamwork. Off the field, he coaches aspiring athletes and shares fitness tips through his blog. He unwinds by playing competitive video games with friends."
+        },
+        'Chip': {
+            imgSrc: '../ProfilePicPlaceholder.jpg',
+            name: 'About Chip: ',
+            about:"Chip has been with Full Sail University for 9 years. He is currently 65 years old, Chip enjoys watching American Football and spending time with his family particularly his 3 grandchildren. "
+        },
+        'Paige': {
+            imgSrc: '../paigeProfilepic.jpg',
+            name: 'About Paige: ',
+            about:"Paige is a committed Admissions Guide, guiding students to pursue their passions with enthusiasm and support. In her leisure time, she finds joy in reading captivating books, embarking on hikes to explore nature, and eagerly anticipating her next travel adventure."
         }
 
         // add other once i recieve pics
