@@ -5,10 +5,16 @@
     justify-content: flex-start;
     align-items: flex-start;
 }
+/* was added recently for background */
+body {
+  background: url('valentines2.jpg');
+  background-size: cover;
+}
   
 #boxoutHome {
     flex: 1;
-    background-color: #D6D6D6;
+    /* background-color: #D6D6D6; */
+    background-color: #FBD4BD;
     padding: 20px;
     margin-right: 4%;
     height: 200px;
@@ -18,7 +24,8 @@
 #boxoutHome p{
     margin-top: 5%;
     text-align: center;
-    color: #2c2b30;
+    /* color: #2c2b30; */
+    color:#F75664;
 }
 
 /*@media (max-width:768px) {
@@ -58,7 +65,7 @@ form {
   }
   
   input[type="submit"] {
-    background-color: lightslategray;
+    /* background-color: lightslategray; */
     color: white;
     padding: 10px 15px;
     border: none;
@@ -68,7 +75,8 @@ form {
   }
   
   input[type="submit"]:hover {
-    background-color: #0056b3;
+    /* background-color: #0056b3; */
+    background-color: #D40B09;
   }
   .team-info {
     display: flex;
@@ -88,13 +96,15 @@ form {
     margin-top: 1%;
     text-align: center;
     font-size: small;
-    color: #D6D6D6;
+    /* color: #D6D6D6; */
+    color: #F75664;
   }
   
   /* Additional styles */
   main h1 {
     font-family: 'Times New Roman', Times, serif;
-    color: #D6D6D6;
+    /* color: #D6D6D6; */
+    color: #F75664;
   }
   
 
@@ -105,7 +115,8 @@ form {
 
   .location-section h2, p{
     text-align: center;
-    color: #D6D6D6;
+    /* color: #D6D6D6; */
+    color: #F75664;
   }
 
   .location-section h2{
@@ -118,5 +129,6 @@ form {
     margin-top: 0%;
     font-style: italic;
   }
+
 
  

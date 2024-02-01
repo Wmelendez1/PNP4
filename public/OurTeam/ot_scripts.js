@@ -56,7 +56,7 @@ function showProfile(memberName) {
     document.getElementById('profileImage').src = memberInfo[memberName].imgSrc;
     document.getElementById('profileName').textContent = memberInfo[memberName].name;
     document.getElementById('profileDescription').textContent = memberInfo[memberName].about;
-
+    
     // Display the modal
     modal.style.display = "block";
 

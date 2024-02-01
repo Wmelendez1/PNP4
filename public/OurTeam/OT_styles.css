@@ -1,3 +1,8 @@
+body {
+    background: url('../valentines2.jpg');
+    background-size: cover;
+}
+
 /* General styles for the team container */
 #team-container1 {
     display: flex;
@@ -7,7 +12,8 @@
 }
 
 #team-container1 .team-member p{
-    color: #D6D6D6;
+    /* color: #D6D6D6; */
+    color: #F75664;
 }
 
 #team-container1 .team-member img {
@@ -43,13 +49,14 @@
 }
 
 .modal-content {
-    background-color:#D6D6D6;
+    /* background-color:#D6D6D6; */
+    background-color: #FBD4BD;
     margin: 15% auto; 
     padding: 20px;
-    border: 1px solid #888;
+    /* border: 1px solid #888; */
+    border: 1px solid #D40B09;
     width: 80%; 
 }
-
 
 .modal-content img {
     width: 300px; 
@@ -59,11 +66,15 @@
     display: block; 
     margin: 0 auto; 
 }
-
-
+.modal-content p,
+.modal-content h2 {
+    color:#D40B09
+   
+}
 
 .close {
-    color: #aaa;
+    /* color: #aaa; */
+    color: #F75664;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -71,12 +82,14 @@
 
 .close:hover,
 .close:focus {
-    color: black;
+    /* color: black; */
+    color: #D40B09;
     text-decoration: none;
     cursor: pointer;
 }
 main h1{
-    color: #D6D6D6;
+    /* color: #D6D6D6; */
+    color: #F75664;
 }
 
 #profileDescription{

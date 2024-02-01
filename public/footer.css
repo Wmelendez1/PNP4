@@ -7,7 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #2c2b30;
+    
 }
 
 main {
@@ -17,7 +17,8 @@ main {
 footer {
     border-top: 2px solid white;
     font-size:x-small ;
-    color: whitesmoke;
+    /* color: whitesmoke; */
+    color:#F75664;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -28,7 +29,8 @@ footer {
   }
 
   .mostUsedLinks a{
-    color: orange;
+    /* color: orange; */
+    color: #D40B09;
     text-decoration: none;
   }
   .mostUsedLinks {
@@ -36,7 +38,8 @@ footer {
   }
 
   .toFullSail a {
-    color:orange;
+    /* color:orange; */
+    color: #D40B09;
     text-decoration: none;
   }
   .toFullSail {

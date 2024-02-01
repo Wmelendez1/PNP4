@@ -1,5 +1,11 @@
+body {
+    background: url('../valentines2.jpg');
+    background-size: cover;
+}
+
 #leaderContainer {
-    background-color: #D6D6D6;
+    /* background-color: #D6D6D6; */
+    background-color: #D48880;
     display: flex; /* Enable flexbox */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center children horizontally */
@@ -17,12 +23,15 @@
 
 #leaderContainer h2 {
     margin-bottom: 1%;
+    color: #FBD4BD;
 }
 
 #leaderContainer p {
     margin-top: 1%; 
+    color: #FBD4BD;
 }
 
 h1 {
-    color: #D6D6D6;
+    /* color: #D6D6D6; */
+    color: #F75664;
 }
