@@ -18,7 +18,8 @@ footer {
     border-top: 2px solid white;
     font-size:x-small ;
     /* color: whitesmoke; */
-    color:#F75664;
+    /* color:#F75664; */
+    color: #7E9C39;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +31,9 @@ footer {
 
   .mostUsedLinks a{
     /* color: orange; */
-    color: #D40B09;
+    /* color: #D40B09; */
+    color: #29851F;
+    background-color: rgba(208, 229, 215, 0.5);
     text-decoration: none;
   }
   .mostUsedLinks {
@@ -39,7 +42,8 @@ footer {
 
   .toFullSail a {
     /* color:orange; */
-    color: #D40B09;
+    /* color: #D40B09; */
+    color: #29851F;
     text-decoration: none;
   }
   .toFullSail {

@@ -7,14 +7,15 @@
 }
 /* was added recently for background */
 body {
-  background: url('valentines2.jpg');
+  background: url('Saint-Pats.jpg');
   background-size: cover;
 }
   
 #boxoutHome {
     flex: 1;
     /* background-color: #D6D6D6; */
-    background-color: #FBD4BD;
+    /* background-color: #FBD4BD; */
+    background-color: #D0E5D7;
     padding: 20px;
     margin-right: 4%;
     height: 200px;
@@ -25,7 +26,8 @@ body {
     margin-top: 5%;
     text-align: center;
     /* color: #2c2b30; */
-    color:#F75664;
+    /* color:#F75664; */
+    color: #29851F;
 }
 
 /*@media (max-width:768px) {
@@ -66,7 +68,9 @@ form {
   
   input[type="submit"] {
     /* background-color: lightslategray; */
-    color: white;
+    /* color: white; */
+    background-color: #D0E5D7;
+    color: #29851F;
     padding: 10px 15px;
     border: none;
     border-radius: 4px;
@@ -76,7 +80,9 @@ form {
   
   input[type="submit"]:hover {
     /* background-color: #0056b3; */
-    background-color: #D40B09;
+    /* background-color: #D40B09; */
+    background-color: #29851F;
+    color: #D0E5D7;
   }
   .team-info {
     display: flex;
@@ -97,14 +103,16 @@ form {
     text-align: center;
     font-size: small;
     /* color: #D6D6D6; */
-    color: #F75664;
+    /* color: #F75664; */
+    color: #29851F;
   }
   
   /* Additional styles */
   main h1 {
     font-family: 'Times New Roman', Times, serif;
     /* color: #D6D6D6; */
-    color: #F75664;
+    /* color: #F75664; */
+    color: #29851F;
   }
   
 
@@ -116,7 +124,9 @@ form {
   .location-section h2, p{
     text-align: center;
     /* color: #D6D6D6; */
-    color: #F75664;
+    /* color: #F75664; */
+    background-color:rgba(208,229,215,0.5);
+    color: #29851F;
   }
 
   .location-section h2{
