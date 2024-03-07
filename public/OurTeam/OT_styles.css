@@ -1,5 +1,5 @@
 body {
-    background: url('../valentines2.jpg');
+    background: url('../Saint-Pats.jpg');
     background-size: cover;
 }
 
@@ -13,7 +13,8 @@ body {
 
 #team-container1 .team-member p{
     /* color: #D6D6D6; */
-    color: #F75664;
+    /* color: #F75664; */
+    color: #29851F;
 }
 
 #team-container1 .team-member img {
@@ -50,11 +51,13 @@ body {
 
 .modal-content {
     /* background-color:#D6D6D6; */
-    background-color: #FBD4BD;
+    /* background-color: #FBD4BD; */
+    background-color: #D0E5D7;
     margin: 15% auto; 
     padding: 20px;
     /* border: 1px solid #888; */
-    border: 1px solid #D40B09;
+    /* border: 1px solid #D40B09; */
+    border: 1px solid #29851F;
     width: 80%; 
 }
 
@@ -68,13 +71,15 @@ body {
 }
 .modal-content p,
 .modal-content h2 {
-    color:#D40B09
+    /* color:#D40B09 */
+    color: #29851F
    
 }
 
 .close {
     /* color: #aaa; */
-    color: #F75664;
+    /* color: #F75664; */
+    color: #7E9C39;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -83,13 +88,18 @@ body {
 .close:hover,
 .close:focus {
     /* color: black; */
-    color: #D40B09;
+    /* color: #D40B09; */
+    color: #29851F;
     text-decoration: none;
     cursor: pointer;
 }
 main h1{
     /* color: #D6D6D6; */
-    color: #F75664;
+    /* color: #F75664; */
+    background-color: rgba(208, 229, 215, 0.5);
+    color:#29851F ;
+    flex: content;
+    width:fit-content;
 }
 
 #profileDescription{

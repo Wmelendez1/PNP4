@@ -7,11 +7,11 @@ function showProfile(memberName) {
             name: 'About Kiara: ',
             about: "She loves to capture the beauty of nature through her lens and is an avid follower of indie music bands. Her weekends are often spent exploring the city and sketching its vibrant landscapes."
         },
-        'Marvena': {
-            imgSrc: '../Marvena.jpg',
-            name: 'About Marvena: ',
-            about:"Marvena is dedicated to making a positive impact on the environment. She spends her time researching sustainable practices and advocating for climate change awareness. Her hobbies include hiking in national parks and cultivating a sustainable garden at home."
-        },
+        // 'Marvena': {
+        //     imgSrc: '../Marvena.jpg',
+        //     name: 'About Marvena: ',
+        //     about:"Marvena is dedicated to making a positive impact on the environment. She spends her time researching sustainable practices and advocating for climate change awareness. Her hobbies include hiking in national parks and cultivating a sustainable garden at home."
+        // },
         'Nar': {
             imgSrc: '../Nar.jpg',
             name: 'About Naresh: ',
@@ -38,7 +38,7 @@ function showProfile(memberName) {
             about:"Tonnie is a professional soccer player known for his agility and teamwork. Off the field, he coaches aspiring athletes and shares fitness tips through his blog. He unwinds by playing competitive video games with friends."
         },
         'Chip': {
-            imgSrc: '../ProfilePicPlaceholder.jpg',
+            imgSrc: '../Chip.png',
             name: 'About Chip: ',
             about:"Chip has been with Full Sail University for 9 years. He is currently 65 years old, Chip enjoys watching American Football and spending time with his family particularly his 3 grandchildren. "
         },
