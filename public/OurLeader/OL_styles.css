@@ -1,11 +1,12 @@
 body {
-    background: url('../valentines2.jpg');
+    background: url('../Saint-Pats.jpg');
     background-size: cover;
 }
 
 #leaderContainer {
     /* background-color: #D6D6D6; */
-    background-color: #D48880;
+    /* background-color: #D48880; */
+    background-color: rgb(126,156,57,0.5);
     display: flex; /* Enable flexbox */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center children horizontally */
@@ -23,15 +24,18 @@ body {
 
 #leaderContainer h2 {
     margin-bottom: 1%;
-    color: #FBD4BD;
+    color: #D0E5D7
 }
 
 #leaderContainer p {
     margin-top: 1%; 
-    color: #FBD4BD;
+    color: #D0E5D7
 }
 
 h1 {
     /* color: #D6D6D6; */
-    color: #F75664;
+    color: #29851F;
+    background-color: rgba(208, 229, 215, 0.5);
+    flex: content;
+    width: fit-content;
 }
